@@ -62,6 +62,10 @@ To set up and run MediVox, ensure the following:
    ```bash
    python main.py
    ```
+    Run the `ui.py` file:
+   ```bash
+   python ui.py
+   ```
 5. Speak your queries, such as:
    - "What are the symptoms of a cold?"
    - "How do I treat a fever?"
