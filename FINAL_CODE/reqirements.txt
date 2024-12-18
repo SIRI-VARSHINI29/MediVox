@@ -1,0 +1,8 @@
+pyttsx3
+speech_recognition
+nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('stopwords')
+sklearn
+Tkinter

@@ -1,0 +1,58 @@
+{
+  "intents": [
+    {
+      "tag": "cold_symptoms",
+      "patterns": ["What are the symptoms of a cold?", "What are the signs of a cold?", "How do I know if I have a cold?", "Do I have a cold?"],
+      "responses": ["Common symptoms of a cold include a runny or stuffy nose, sore throat, cough, congestion, mild body aches, and low-grade fever."],
+      "context_set": ""
+    },
+    {
+      "tag": "flu_symptoms",
+      "patterns": ["What are the symptoms of the flu?", "How do I know if I have the flu?", "Do I have the flu?"],
+      "responses": ["Symptoms of the flu can include fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue."],
+      "context_set": ""
+    },
+    {
+      "tag": "fever_management",
+      "patterns": ["How do I treat a fever?", "What should I do if I have a fever?"],
+      "responses": ["To manage a fever, rest, drink plenty of fluids, take fever-reducing medications such as acetaminophen or ibuprofen, and seek medical attention if the fever persists or worsens."],
+      "context_set": ""
+    },
+    {
+      "tag": "allergy_symptoms",
+      "patterns": ["What are common allergy symptoms?", "How do I know if I have allergies?"],
+      "responses": ["Common allergy symptoms include sneezing, runny or stuffy nose, itchy eyes, nose, or throat, watery and red eyes, and skin rash or hives."],
+      "context_set": ""
+    },
+    {
+      "tag": "covid_symptoms",
+      "patterns": ["What are the symptoms of COVID-19?", "How do I know if I have COVID-19?"],
+      "responses": ["Common symptoms of COVID-19 include fever or chills, cough, shortness of breath or difficulty breathing, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea."],
+      "context_set": ""
+    },
+    {
+      "tag": "cold_medication",
+      "patterns": ["What medications can I take for a cold?", "How can I treat a cold?"],
+      "responses": ["For a cold, you can take over-the-counter medications such as decongestants, antihistamines, pain relievers, and cough suppressants. Always read and follow the label instructions and consult with a healthcare professional if needed."],
+      "context_set": ""
+    },
+    {
+      "tag": "flu_medication",
+      "patterns": ["What medications are recommended for the flu?", "How should I treat the flu?"],
+      "responses": ["Treatment for the flu may include antiviral medications prescribed by a healthcare professional, along with rest, fluids, and over-the-counter medications to relieve symptoms such as fever, cough, and body aches."],
+      "context_set": ""
+    },
+    {
+      "tag": "allergy_medication",
+      "patterns": ["What allergy medications can I take?", "How can I relieve allergy symptoms?"],
+      "responses": ["To relieve allergy symptoms, you can take over-the-counter antihistamines, nasal sprays, decongestants, and eye drops. It's important to identify and avoid allergens whenever possible and consult with a healthcare professional for personalized advice."],
+      "context_set": ""
+    },
+    {
+      "tag": "covid_treatment",
+      "patterns": ["How is COVID-19 treated?", "What medications are used for COVID-19?"],
+      "responses": ["Treatment for COVID-19 varies depending on the severity of symptoms and may include antiviral medications, corticosteroids, supplemental oxygen, and supportive care. It's important to follow guidance from healthcare professionals and public health authorities."],
+      "context_set": ""
+    }
+  ]
+}

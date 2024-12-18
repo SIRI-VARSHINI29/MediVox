@@ -1,0 +1,44 @@
+
+
+
+
+{
+  "intents": [
+    {
+      "tag": "symptoms",
+      "patterns": ["What are the symptoms of a cold?", "What are the symptoms of flu?", "How do I know if I have a fever?", "What are common allergy symptoms?", "What are the signs of COVID-19?"],
+      "responses": ["Common symptoms of a cold include a runny or stuffy nose, sore throat, cough, congestion, mild body aches, and low-grade fever.",
+                    "Symptoms of the flu can include fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue.",
+                    "Common signs of a fever include a high body temperature, sweating, shivering, headache, muscle aches, loss of appetite, and dehydration.",
+                    "Common allergy symptoms include sneezing, runny or stuffy nose, itchy eyes, nose, or throat, watery and red eyes, and skin rash or hives.",
+                    "Common symptoms of COVID-19 include fever or chills, cough, shortness of breath or difficulty breathing, fatigue, muscle or body aches, headache, new loss of taste or smell, sore throat, congestion or runny nose, nausea or vomiting, and diarrhea."],
+    },
+    {
+      "tag": "prevention",
+      "patterns": ["How can I prevent the common cold?", "What can I do to prevent getting the flu?", "How do I avoid allergies?", "How can I protect myself from COVID-19?"],
+      "responses": ["To prevent the common cold, wash your hands often, avoid close contact with sick people, and practice good respiratory hygiene.",
+                    "To prevent getting the flu, get vaccinated, avoid close contact with sick people, wash your hands frequently, and practice good respiratory hygiene.",
+                    "To avoid allergies, identify and avoid allergens, keep indoor air clean, use air purifiers, and take allergy medications as prescribed.",
+                    "To protect yourself from COVID-19, wear a mask, practice social distancing, wash your hands frequently, avoid touching your face, and follow local health guidelines and recommendations."],
+      "context_set": ""
+    },
+    {
+      "tag": "treatment",
+      "patterns": ["How do I treat a sore throat?", "What are some remedies for coughing?", "How can I relieve allergy symptoms?", "How is COVID-19 treated?"],
+      "responses": ["To treat a sore throat, drink warm liquids, gargle with salt water, use throat lozenges, and rest your voice.",
+                    "Remedies for coughing include staying hydrated, using cough drops or lozenges, taking over-the-counter cough medicines, and using a humidifier.",
+                    "To relieve allergy symptoms, use over-the-counter antihistamines, nasal sprays, and decongestants. Keep windows closed and use air purifiers to reduce exposure to allergens.",
+                    "Treatment for COVID-19 varies depending on the severity of symptoms and may include rest, fluids, fever-reducing medications, supplemental oxygen, and in severe cases, hospitalization and supportive care."],
+      "context_set": ""
+    },
+    {
+      "tag": "doctor_visit",
+      "patterns": ["When should I see a doctor for a cold?", "Do I need to consult a doctor for the flu?", "Should I see a doctor for allergies?", "When to seek medical help for COVID-19 symptoms?"],
+      "responses": ["You should consider seeing a doctor for a cold if you have severe symptoms such as difficulty breathing, persistent fever, chest pain, or if symptoms worsen or persist for more than a week.",
+                    "If you have flu symptoms and are at high risk of complications, such as young children, older adults, or people with underlying health conditions, you should consult a doctor. Seek medical attention if you have severe symptoms or difficulty breathing.",
+                    "If you have severe allergy symptoms that are not relieved by over-the-counter medications, or if you experience symptoms such as difficulty breathing or swelling of the face or throat, seek medical help.",
+                    "Seek medical help if you have COVID-19 symptoms such as difficulty breathing, persistent chest pain, confusion, inability to stay awake, or bluish lips or face. Follow local health guidelines for testing and treatment."],
+      "context_set": ""
+    }
+  ]
+}
